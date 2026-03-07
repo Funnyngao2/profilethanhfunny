@@ -9,7 +9,9 @@ import { I18nProvider } from './i18n.jsx'
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/admin', element: <Admin /> },
-])
+], {
+  basename: import.meta.env.BASE_URL
+})
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
