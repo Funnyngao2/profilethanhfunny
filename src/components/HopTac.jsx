@@ -1,17 +1,15 @@
 import React from "react";
 
-const BASE_URL = import.meta.env.BASE_URL;
-
 const logos = [
-  { src: BASE_URL + "img/imglogo/1 (1).svg", alt: "lahome" },
-  { src: BASE_URL + "img/imglogo/1 (2).svg", alt: "Booking.com" },
-  { src: BASE_URL + "img/imglogo/1 (3).svg", alt: "Atlassian" },
-  { src: BASE_URL + "img/imglogo/1 (4).svg", alt: "ThoughtWorks" },
-  { src: BASE_URL + "img/imglogo/1 (5).svg", alt: "Samsung" },
-  { src: BASE_URL + "img/imglogo/1 (6).svg", alt: "Expedia" },
-  { src: BASE_URL + "img/imglogo/1 (7).svg", alt: "Angular" },
-  { src: BASE_URL + "img/imglogo/1 (8).svg", alt: "Reuters" },
-  { src: BASE_URL + "img/imglogo/1 (9).svg", alt: "Visa" }
+  { src: "./img/imglogo/1 (1).svg", alt: "lahome" },
+  { src: "./img/imglogo/1 (2).svg", alt: "Booking.com" },
+  { src: "./img/imglogo/1 (3).svg", alt: "Atlassian" },
+  { src: "./img/imglogo/1 (4).svg", alt: "ThoughtWorks" },
+  { src: "./img/imglogo/1 (5).svg", alt: "Samsung" },
+  { src: "./img/imglogo/1 (6).svg", alt: "Expedia" },
+  { src: "./img/imglogo/1 (7).svg", alt: "Angular" },
+  { src: "./img/imglogo/1 (8).svg", alt: "Reuters" },
+  { src: "./img/imglogo/1 (9).svg", alt: "Visa" }
 ];
 
 
